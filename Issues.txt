@@ -1,0 +1,26 @@
+1. Basic TPL
+
+Get Details - 15 sec
+
+Calculate premium : 18
+
+2. Individaul Multi - 4 Vehicles
+
+
+NID : 1008975425
+DOb:10/25/1965
+
+819632310
+974632310
+365632310
+182752310
+
+
+
+1. Calculate Premium page : No data was loaded . happen twice for me
+2. Send Payment link not working
+3. Upload national address link not working
+4. Add More button not working on 'Policy Issuance ' page
+5. Calculate Premium : Update the Education for Main Driver and save Quote. When you view the quote again. Education drop down will be empty
+6. After uploading the document. in next screen 'Delete' button not working 
+7. Upload National Address : I uploaded a 160KB file and In UI it shows 160MB file size
