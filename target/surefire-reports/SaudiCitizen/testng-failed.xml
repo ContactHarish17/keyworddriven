@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SaudiCitizen]">
+  <listeners>
+    <listener class-name="com.qa.keyword.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="E-2-E Testing(failed)">
+    <classes>
+      <class name="com.qa.keyword.tests.OnBoardingText">
+        <methods>
+          <include name="ConvertingContactASProspectTest"/>
+          <include name="AddingContactTest"/>
+          <include name="StoppingTest"/>
+        </methods>
+      </class> <!-- com.qa.keyword.tests.OnBoardingText -->
+    </classes>
+  </test> <!-- E-2-E Testing(failed) -->
+</suite> <!-- Failed suite [SaudiCitizen] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SaudiCitizen">
+    <listeners>
+        <listener class-name = "com.qa.keyword.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+    <test name="E-2-E Testing">
+        <classes>
+            <class name="com.qa.keyword.tests.OnBoardingText" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
