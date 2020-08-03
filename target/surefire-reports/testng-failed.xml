@@ -6,13 +6,12 @@
   </listeners>
   <test thread-count="5" verbose="0" name="E-2-E Testing(failed)">
     <classes>
-      <class name="com.qa.keyword.tests.OnBoardingText">
+      <class name="com.qa.keyword.tests.OnBoardingTest">
         <methods>
+          <include name="OnBoadringPartnerTest"/>
           <include name="ConvertingContactASProspectTest"/>
-          <include name="AddingContactTest"/>
-          <include name="StoppingTest"/>
         </methods>
-      </class> <!-- com.qa.keyword.tests.OnBoardingText -->
+      </class> <!-- com.qa.keyword.tests.OnBoardingTest -->
     </classes>
   </test> <!-- E-2-E Testing(failed) -->
 </suite> <!-- Failed suite [SaudiCitizen] -->

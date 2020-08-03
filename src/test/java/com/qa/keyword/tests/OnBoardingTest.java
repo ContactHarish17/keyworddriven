@@ -16,7 +16,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class OnBoardingText {
+public class OnBoardingTest {
 
     public ExecuteEngine executeEngine = new ExecuteEngine();
     Base base = new Base();
@@ -36,7 +36,7 @@ public class OnBoardingText {
     public void OnBoadringPartnerTest()
     {
         //base.startTest("OnBoarding", "Test to check the new partner On boaring");
-        executeEngine.startExecution("Login");
+        executeEngine.startExecution("NonSaudiReferral");
 
     }
 
@@ -71,7 +71,7 @@ public class OnBoardingText {
     public void ConvertingContactASProspectTest()
     {
        // base.startTest("ConvertingasProspect", "Test to convert contact as Prospect");
-        executeEngine.startExecution("EditingAContact");
+        executeEngine.startExecution("OnBoarding");
     }
 
 

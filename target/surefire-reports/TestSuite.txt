@@ -1,33 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 141.24 s <<< FAILURE! - in TestSuite
-AddingContactTest(com.qa.keyword.tests.OnBoardingText)  Time elapsed: 11.852 s  <<< FAILURE!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=83.0.4103.116)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'A2ML23556', ip: '10.70.97.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m8070777\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 26cb50b5d6ebfe80d1d4e2eec44ed382
-	at com.qa.keyword.tests.OnBoardingText.AddingContactTest(OnBoardingText.java:64)
-
-ConvertingContactASProspectTest(com.qa.keyword.tests.OnBoardingText)  Time elapsed: 60.154 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 158.505 s <<< FAILURE! - in TestSuite
+OnBoadringPartnerTest(com.qa.keyword.tests.OnBoardingTest)  Time elapsed: 90.301 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="Add More ..."]"}
-  (Session info: chrome=83.0.4103.116)
+no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='Are you a Saudi Citizen?']"}
+  (Session info: chrome=84.0.4147.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'A2ML23556', ip: '10.70.97.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+System info: host: 'A2ML23556', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m8070777\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 26cb50b5d6ebfe80d1d4e2eec44ed382
-*** Element info: {Using=xpath, value=//a[text()="Add More ..."]}
-	at com.qa.keyword.tests.OnBoardingText.ConvertingContactASProspectTest(OnBoardingText.java:75)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\m8070777\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 79b8252cc2f4522b9ca5d9678707e34a
+*** Element info: {Using=xpath, value=//h2[text()='Are you a Saudi Citizen?']}
+	at com.qa.keyword.tests.OnBoardingTest.OnBoadringPartnerTest(OnBoardingTest.java:39)
 
-StoppingTest(com.qa.keyword.tests.OnBoardingText)  Time elapsed: 0.058 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.keyword.tests.OnBoardingText.StoppingTest(OnBoardingText.java:84)
+ConvertingContactASProspectTest(com.qa.keyword.tests.OnBoardingTest)  Time elapsed: 63.136 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//h2[text()='Are you a Saudi Citizen?']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'A2ML23556', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: RemoteWebDriver
+	at com.qa.keyword.tests.OnBoardingTest.ConvertingContactASProspectTest(OnBoardingTest.java:74)
 

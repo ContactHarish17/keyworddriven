@@ -6,7 +6,7 @@
     </listeners>
     <test name="E-2-E Testing">
         <classes>
-            <class name="com.qa.keyword.tests.OnBoardingText" />
+            <class name="com.qa.keyword.tests.OnBoardingTest" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
